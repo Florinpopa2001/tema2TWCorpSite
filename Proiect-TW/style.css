@@ -1,0 +1,148 @@
+/*HTML CSS*/
+
+* {
+    margin: 0  ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    cursor: url("https://e7.pngegg.com/pngimages/414/515/png-clipart-fork-fork-thumbnail.png"), auto;
+
+  }
+  
+  html {
+    font-size: 62.5% ;
+  }
+  body {
+    background: #ddd;
+  }
+
+
+  
+  /* NAV CSS */
+
+  .nav-li{
+    font-size: 1.9rem;
+  }
+
+  .nav-li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+  }
+
+  .fa-solid{
+    color: black;
+    padding-right: 0.8rem;
+  }
+
+  .navbar{
+    margin-bottom: 0;
+  }
+  .hero-image1{
+    width: 20rem;
+    margin-top: -20rem;
+  }
+
+  .hero-image2{
+    width: 20rem;
+  }
+   /* Default height for small devices */
+   #intro-example {
+    height: 400px;
+  }
+
+  /* Height for devices larger than 992px */
+  @media (min-width: 992px) {
+    #intro-example {
+      height: 600px;
+    }
+  }
+  .numeBrand{
+    font-size: 2.4rem;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .headerMenu{
+    width: 100%;
+    background-color: #267cb5;
+  }
+
+  .bg-custom{
+    background-color: #197dc0;
+  }
+
+
+  .hero-section {
+    background-color:#dff;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .openingText{
+    text-align: center;
+  }
+  
+
+  /*Textul din hero section este afisat in mijloc*/
+  .hero{
+    text-align: center;
+  }
+
+
+  /*Pozitii imagini in hero section*/
+  .position-1 {
+    top: 100px;
+    left: 50px;
+  }
+  
+  .position-2 {
+    top: 350px;
+    left: 100px;
+  }
+
+  .position-3{
+    top: 300px;
+    right: 150px;
+  }
+
+    /*PROGRAM CSS STYLE*/
+    .col-md-6{
+      color: black;
+    }
+    .col-md-6 li{
+      list-style: none;
+    }
+
+  .program2{
+    margin-bottom: 4rem;
+
+  }
+
+  img{
+    width: 60rem;
+    margin-bottom: 4rem;
+
+  }
+
+  .pozeText{
+    margin-top: 2rem;
+  }
+
+  .pozaBucatar{
+    width: 51rem;
+  }
+
+  .inscriereDesert li{
+    padding-bottom: 0.5rem;
+  }
+  .btnInscriereDeserturi{
+    margin-top: 1.8rem;
+  }
+
+
+  .footerSection{
+
+  }
